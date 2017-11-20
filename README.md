@@ -1,7 +1,7 @@
 # Requirements
 SDK requires Android SDK version 9 (14 with latest Google Play Services)
 # Installation
-* Download aar library
+* Download aar library [here](advertise/advertise_release.aar)
 * Go to Files->New->New module->Import .JAR/.AAR Package and select path and name for module
 * Then include module to your app dependencies. Open File->Project Structure. Click on your app module at left column, then go to tab `Dependencies`, click on `+` and select library module
 ### Use Google Advertising ID (optional)
@@ -58,7 +58,7 @@ Initialize SDK
  ```
  
  
- ##### Available tags:
+ ##### Available attributes:
 * xendiz:size - size of banner(enum)
 * xendiz:placementId - banner id
 * xendiz:refresh - Optional. Seconds between reloading advertise(integer). Should be in range from 20 to 60
@@ -72,7 +72,7 @@ Initialize SDK
 * BANNER_320_320
 * BANNER_728_90
 
-Then load banner in code
+Then load banner inside code
 
 ```
 
